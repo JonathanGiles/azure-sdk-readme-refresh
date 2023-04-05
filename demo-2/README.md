@@ -52,7 +52,7 @@ Key concepts, code examples, and usage instructions for this library are discuss
 
 ## Creating a Client
 
-With all of the links provided above, you should have ample guidance on most aspects of using this library. To make this concrete, the code snippets below show the critical code required to create a new client, including authentication.
+With all of the links provided above, you should have ample guidance on most aspects of using this library. To make this concrete, the code snippets below show the critical code required to create a new client, including authentication. For more in-depth code snippets, refer to the [samples][samples] package.
 
 ### Using a Connection String
 
