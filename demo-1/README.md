@@ -33,6 +33,8 @@ Azure SDK for Java libraries are all available from [Maven Central][maven_packag
 </dependencies>
 ```
 
+> **TODO** I want to auto-refresh the *{bom_version_to_target}* text with the latest BOM version, rather than have it be a placeholder and an exercise left to the reader.
+
 ## Authentication
 
 This client library supports the authentication methods listed below:
