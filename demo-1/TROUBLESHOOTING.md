@@ -1,17 +1,17 @@
 # Troubleshooting
 
-This document details any troubleshooting guidance that is specific to the Azure App Configuration Java client library, and mitigation steps to resolve these errors.
-
-## General troubleshooting guidance
-
-The Azure SDK for Java team offers (general troubleshooting guidance)[general_troubleshooting]. This documentation includes numerous pointers for tweaking aspects of the libraries, and is a great place for developers new and experienced with the Azure SDK for Java for tips and tricks on getting the best out of the libraries, as well as resolving problems that may be encountered.
+The Azure SDK for Java team offers [general troubleshooting guidance][general_troubleshooting] that covers a wide range of topics. This documentation includes numerous pointers for tweaking aspects of the libraries, and is a great place for developers to get useful guidance on getting the best out of the libraries, as well as resolving problems that may be encountered. **It is strongly recommended you read this guidance first!**
 
 ## Azure App Configuration library guidance
 
-The frequently asked question can be found in [FAQ][faq] and common best practice sample can be found in [Best Practice Samples][best_practice_samples].
+> **Note:** This section may not be present in all libraries, as it is not always going to be the case that all libraries have troubleshooting guidance specifically for them.
 
-> TODO
+The Azure App Configuration service team has made available some useful documentation:
+
+* A [frequently asked questions][faq] document, which helps to explain many of the service concepts.
+* A [best practices][best_practice_samples] document, full of suggestions on how best to utilize the App Configuration service.
 
 <!-- LINKS -->
+[best_practice_samples]: https://learn.microsoft.com/azure/azure-app-configuration/howto-best-practices
 [faq]: https://learn.microsoft.com/azure/azure-app-configuration/faq
 [general_troubleshooting]: ../other/TROUBLESHOOTING.md
