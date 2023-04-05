@@ -5,8 +5,9 @@
 The text below proposes changes to the structure of the Java documentation. Most notably, it intends to simplify and de-dupe content in the 'readme.md' files found throughout our GitHub repo for each library. To see how these changes could be implemented, refer to the links below:
 
 * [Existing readme](existing/README.md)
-* [Variation #1](demo-1/README.md): Extremely minimal
-* [Variation #2](demo-2/README.md): Same as variation #1 above, but with more code samples related to authentication
+* [Variation #1](demo-1/README.md): Extremely minimal.
+* [Variation #2](demo-2/README.md): Same as variation #1 above, but with more code samples related to authentication.
+* [Variation #3](demo-3/README.md): Same as variation #2 above, but with explicit links to each sample file.
 
 ## Further Details
 
