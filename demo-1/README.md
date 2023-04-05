@@ -10,7 +10,7 @@ Use this client library to create and manage application configuration settings.
 
 ## Getting started
 
-Azure SDK for Java libraries are all available from [Maven Central][maven_package]. This library is named `azure-data-appconfiguration`, and is included in the `azure-sdk-bom` for your convenience. It is *highly* recommended to use the Azure SDK BOM to manage your dependencies. You can learn how to use this with [Maven][learn_maven] and [Gradle][learn_gradle] docs. With the Azure SDK for Java BOM, you would add the following to your Maven *pom.xml* file:
+Azure SDK for Java libraries are all available from [Maven Central][maven_package]. This library is named `azure-data-appconfiguration`, and is included in the `azure-sdk-bom` for your convenience. It is *highly* recommended to use the Azure SDK BOM to manage your dependencies. To use the Azure SDK BOM, follow our [Maven][bom_maven] and [Gradle][bom_gradle] docs. With the Azure SDK for Java BOM, you would add the following to your Maven *pom.xml* file:
 
 ```xml
 <dependencyManagement>
@@ -34,6 +34,8 @@ Azure SDK for Java libraries are all available from [Maven Central][maven_packag
 ```
 
 > **TODO** I want to auto-refresh the *{bom_version_to_target}* text with the latest BOM version, rather than have it be a placeholder and an exercise left to the reader.
+
+Additionally, for projects using Maven as their build tool, it is *highly* recommended to use the [Maven Build Tool plugin][maven_build_tool], as this will ensure all Azure SDK best practices are being followed.
 
 ## Authentication
 
@@ -63,8 +65,9 @@ See our [App Configuration troubleshooting guide](TROUBLESHOOTING.md) for detail
 [azure_identity]: https://github.com/Azure/azure-sdk-for-java/tree/main/sdk/identity/azure-identity
 [azure_identity_concepts]: https://learn.microsoft.com/azure/developer/java/sdk/identity
 [azure_identity_ref_docs]: https://learn.microsoft.com/java/api/com.azure.identity
-[learn_maven]: https://learn.microsoft.com/azure/developer/java/sdk/get-started-maven
-[learn_gradle]: https://learn.microsoft.com/azure/developer/java/sdk/get-started-gradle
+[bom_maven]: https://learn.microsoft.com/azure/developer/java/sdk/get-started-maven#add-azure-sdk-for-java-to-an-existing-project
+[bom_gradle]: https://learn.microsoft.com/azure/developer/java/sdk/get-started-gradle
+[maven_build_tool]: https://learn.microsoft.com/azure/developer/java/sdk/get-started-maven#use-the-azure-sdk-for-java-build-tool
 [maven_package]: https://central.sonatype.com/artifact/com.azure/azure-data-appconfiguration/1.4.3
 [product_docs]: https://docs.microsoft.com/azure/azure-app-configuration
 [samples]: https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/appconfiguration/azure-data-appconfiguration/src/samples
