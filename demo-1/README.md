@@ -46,7 +46,7 @@ Authentication is a complex topic, but fortunately there are [conceptual docs][a
 
 ## Key Concepts and Examples
 
-Key concepts, code examples, and usage instructions for this library are discussed in great detail in our reference documentation. [Click here][api_documentation] to see the reference documentation for this library. Additionally, there are more comprehensive code samples in the [samples][samples] directory of this library.
+Key concepts, code examples, and usage instructions for this library are discussed in great detail in the [App Configuration ref docs][api_documentation]. Additionally, there are more comprehensive code samples in the [samples][samples] directory of this library.
 
 ## Troubleshooting
 
