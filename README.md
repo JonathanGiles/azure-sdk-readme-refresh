@@ -6,6 +6,7 @@ The text below proposes changes to the structure of the Java documentation. Most
 
 * [Existing readme](existing/README.md)
 * [Variation #1](demo-1/README.md): Extremely minimal
+* [Variation #2](demo-2/README.md): Same as variation #1 above, but with more code samples related to authentication
 
 ## Further Details
 
