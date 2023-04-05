@@ -14,3 +14,4 @@ The frequently asked question can be found in [FAQ][faq] and common best practic
 
 <!-- LINKS -->
 [faq]: https://learn.microsoft.com/azure/azure-app-configuration/faq
+[general_troubleshooting]: ../other/TROUBLESHOOTING.md

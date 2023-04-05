@@ -1,13 +1,12 @@
 # Azure App Configuration client library for Java
 
+**Links:** [Source][source_code] | [Maven][package] | [Ref Docs][api_documentation] | [Product Docs][azconfig_docs] | [Samples][samples] | [Troubleshooting](TROUBLESHOOTING.md)
+
 Azure App Configuration is a managed service that helps developers centralize their application configurations simply and securely.
 
 Modern programs, especially programs running in a cloud, generally have many components that are distributed in nature. Spreading configuration settings across these components can lead to hard-to-troubleshoot errors during an application deployment. Use App Configuration to store all the settings for your application and secure their accesses in one place.
 
 Use the client library for App Configuration to create and manage application configuration settings.
-
-[Source code][source_code] | [Package (Maven)][package] | [API reference documentation][api_documentation]
-| [Product documentation][azconfig_docs] | [Samples][samples] | [Troubleshooting](TROUBLESHOOTING.md)
 
 ## Getting started
 
@@ -20,7 +19,7 @@ This client library supports [authentication methods][azure_identity_concepts] l
 * Azure Active Directory
 * Connection strings
 
-For samples on how to connect using these authentication methods, refer to the [samples document][samples]
+Authentication uses the [azure-identity][azFor samples on how to connect using these authentication methods, refer to the [samples document][samples]
 
 ## Key Concepts and Examples
 
@@ -37,27 +36,13 @@ See our [App Configuration troubleshooting guide](TROUBLESHOOTING.md) for detail
 * [Quickstart: Create a Java Spring app with App Configuration][spring_quickstart]
 
 <!-- LINKS -->
-[add_headers_from_context_policy]: https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/core/azure-core/src/main/java/com/azure/core/http/policy/AddHeadersFromContextPolicy.java
-[api_documentation]: https://learn.microsoft.com/en-gb/java/api/com.azure.identity
-[app_config_store]: https://docs.microsoft.com/azure/azure-app-configuration/quickstart-dotnet-core-app#create-an-app-configuration-store
-[app_config_role]: https://docs.microsoft.com/azure/azure-app-configuration/rest-api-authorization-azure-ad#roles
-[azconfig_docs]: https://docs.microsoft.com/azure/azure-app-configuration
-[azure_cli]: https://docs.microsoft.com/cli/azure
+[api_documentation]: https://learn.microsoft.com/java/api/com.azure.data.appconfiguration
 [azure_identity]: https://github.com/Azure/azure-sdk-for-java/tree/main/sdk/identity/azure-identity
 [azure_identity_concepts]: https://learn.microsoft.com/azure/developer/java/sdk/identity
-[azure_subscription]: https://azure.microsoft.com/free
-[cla]: https://cla.microsoft.com
-[coc]: https://opensource.microsoft.com/codeofconduct/
-[coc_faq]: https://opensource.microsoft.com/codeofconduct/faq/
-[coc_contact]: mailto:opencode@microsoft.com
-[default_cred_ref]: https://azuresdkdocs.blob.core.windows.net/$web/java/azure-identity/1.0.1/com/azure/identity/DefaultAzureCredential.html
-[jdk_link]: https://docs.microsoft.com/java/azure/jdk/?view=azure-java-stable
-[maven]: https://maven.apache.org/
+[azure_identity_ref_docs]: https://learn.microsoft.com/java/api/com.azure.identity
 [package]: https://central.sonatype.com/artifact/com.azure/azure-data-appconfiguration/1.4.3
-[performance_tuning]: https://github.com/Azure/azure-sdk-for-java/wiki/Performance-Tuning
-[rest_api]: https://github.com/Azure/AppConfiguration#rest-api-reference
 [samples]: https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/appconfiguration/azure-data-appconfiguration/src/samples
 [source_code]: https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/appconfiguration/azure-data-appconfiguration/src
 [spring_quickstart]: https://docs.microsoft.com/azure/azure-app-configuration/quickstart-java-spring-app
-[troubleshooting-guide]: https://learn.microsoft.com/azure/developer/java/sdk/troubleshooting-network
+[troubleshooting-guide]: ../other/TROUBLESHOOTING.md
 ![Impressions](https://azure-sdk-impressions.azurewebsites.net/api/impressions/azure-sdk-for-java%2Fsdk%2Fappconfiguration%2Fazure-data-appconfiguration%2FREADME.png)
