@@ -1,6 +1,6 @@
 # Azure App Configuration client library for Java
 
-**Links:** [Source][source_code] | [Maven][maven_package] | [Ref Docs][api_documentation] | [Product Docs][product_docs] | [Samples](#Key Concepts and Examples) | [Troubleshooting](TROUBLESHOOTING.md)
+**Links:** [Source][source_code] | [Maven][maven_package] | [Ref Docs][api_documentation] | [Product Docs][product_docs] | [Samples][samples] | [Troubleshooting](TROUBLESHOOTING.md)
 
 [Azure App Configuration][product_docs] is a managed service that helps developers centralize their application configurations simply and securely.
 
@@ -115,6 +115,7 @@ See our [App Configuration troubleshooting guide](TROUBLESHOOTING.md) for detail
 [spring_quickstart]: https://docs.microsoft.com/azure/azure-app-configuration/quickstart-java-spring-app
 [troubleshooting-guide]: ../other/TROUBLESHOOTING.md
 
+[samples]: #key-concepts-and-examples
 [sample_proxy_option]: https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/appconfiguration/azure-data-appconfiguration/src/samples/java/com/azure/data/appconfiguration/ProxyOptionsSample.java
 [sample_hello_world]: https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/appconfiguration/azure-data-appconfiguration/src/samples/java/com/azure/data/appconfiguration/HelloWorld.java
 [sample_list_configuration_settings]: https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/appconfiguration/azure-data-appconfiguration/src/samples/java/com/azure/data/appconfiguration/ConfigurationSets.java
