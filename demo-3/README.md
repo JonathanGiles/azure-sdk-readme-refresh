@@ -4,13 +4,11 @@
 
 [Azure App Configuration][product_docs] is a managed service that helps developers centralize their application configurations simply and securely.
 
-Modern programs, especially programs running in a cloud, generally have many components that are distributed in nature. Spreading configuration settings across these components can lead to hard-to-troubleshoot errors during an application deployment. Use App Configuration to store all the settings for your application and secure their accesses in one place.
-
-Use this client library to create and manage application configuration settings.
+Modern programs, especially programs running in a cloud, generally have many components that are distributed in nature. Spreading configuration settings across these components can lead to hard-to-troubleshoot errors during an application deployment. Use App Configuration to store all the settings for your application and secure their accesses in one place. This client library allows developers to create and manage application configuration settings.
 
 ## Getting started
 
-Azure SDK for Java libraries are all available from [Maven Central][maven_package]. This library is named `azure-data-appconfiguration`, and is included in the `azure-sdk-bom` for your convenience. It is *highly* recommended to use the Azure SDK BOM to manage your dependencies. To use the Azure SDK BOM, follow our [Maven][bom_maven] and [Gradle][bom_gradle] docs. With the Azure SDK for Java BOM, you would add the following to your Maven *pom.xml* file:
+The Azure SDK for Java offers a comprehensive collection of libraries, all of which are conveniently accessible on Maven Central under the [com.azure](https://central.sonatype.com/namespace/com.azure) namespace. The `azure-data-appconfiguration` library is available [here on Maven Central][maven_package]. In addition to this, the library is also referenced in the `azure-sdk-bom`, making it easier for you to navigate and locate the latest versions of all libraries. It is *highly* recommended to use the Azure SDK BOM to manage your dependencies. To use the Azure SDK BOM, follow our [Maven][bom_maven] and [Gradle][bom_gradle] docs. With the Azure SDK for Java BOM, you would add the following to your Maven *pom.xml* file:
 
 ```xml
 <dependencyManagement>
