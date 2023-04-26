@@ -1,6 +1,6 @@
 # Azure App Configuration client library for Java
 
-**Links:** [Source][source_code] | [Maven][maven_package] | [Ref Docs][api_documentation] | [Product Docs][product_docs] | [Samples][samples] | [Troubleshooting](TROUBLESHOOTING.md)
+**Links:** [Source][source_code] | [Maven][maven_package] | [Ref Docs][api_documentation] | [Product Docs][product_docs] | [Samples][samples] | [Troubleshooting](TROUBLESHOOTING.md) | [Changelog][changelog]
 
 [Azure App Configuration][product_docs] is a managed service that helps developers centralize their application configurations simply and securely.
 
@@ -8,7 +8,7 @@ Modern programs, especially programs running in a cloud, generally have many com
 
 ## Getting started
 
-The Azure SDK for Java offers a comprehensive collection of libraries, all of which are conveniently accessible on Maven Central under the [com.azure](https://central.sonatype.com/namespace/com.azure) namespace. The `azure-data-appconfiguration` library is available [here on Maven Central][maven_package]. In addition to this, the library is also referenced in the `azure-sdk-bom`, making it easier for you to navigate and locate the latest versions of all libraries. It is *highly* recommended to use the Azure SDK BOM to manage your dependencies. To use the Azure SDK BOM, follow our [Maven][bom_maven] and [Gradle][bom_gradle] docs. With the Azure SDK for Java BOM, you would add the following to your Maven *pom.xml* file:
+The Azure SDK for Java offers a comprehensive collection of libraries, all of which are conveniently accessible on Maven Central under the [com.azure](https://central.sonatype.com/namespace/com.azure) namespace. The `azure-data-appconfiguration` library is available [here on Maven Central][maven_package]. In addition to this, the library is also referenced in the `azure-sdk-bom`, making it easier for you to navigate and locate the latest versions of all libraries. Microsoft Azure SDK best practice is to use the Azure SDK BOM to manage your dependencies. To use the Azure SDK BOM, follow our [Maven][bom_maven] and [Gradle][bom_gradle] docs. With the Azure SDK for Java BOM, you would add the following to your Maven *pom.xml* file:
 
 ```xml
 <dependencyManagement>
@@ -33,7 +33,7 @@ The Azure SDK for Java offers a comprehensive collection of libraries, all of wh
 
 > **TODO** I want to auto-refresh the *{bom_version_to_target}* text with the latest BOM version, rather than have it be a placeholder and an exercise left to the reader.
 
-Additionally, for projects using Maven as their build tool, it is *highly* recommended to use the [Maven Build Tool plugin][maven_build_tool], as this will ensure all Azure SDK best practices are being followed.
+Additionally, for projects using Maven as their build tool, Microsoft Azure SDK best practice is to use the [Maven Build Tool plugin][maven_build_tool], as this will ensure all Azure SDK best practices are being followed.
 
 ## Authentication
 
@@ -94,9 +94,9 @@ See our [App Configuration troubleshooting guide](TROUBLESHOOTING.md) for detail
 
 ## Next steps
 
+* [Quickstart: Create a Java Spring app with App Configuration][spring_quickstart]
 * Comprehensive code samples are available [here][samples].
 * Detailed reference docs and usage examples for the API in this library are provided [here][api_documentation].
-* [Quickstart: Create a Java Spring app with App Configuration][spring_quickstart]
 
 <!-- LINKS -->
 [api_documentation]: https://learn.microsoft.com/java/api/com.azure.data.appconfiguration
@@ -106,6 +106,7 @@ See our [App Configuration troubleshooting guide](TROUBLESHOOTING.md) for detail
 [azure_identity_ref_docs]: https://learn.microsoft.com/java/api/com.azure.identity
 [bom_maven]: https://learn.microsoft.com/azure/developer/java/sdk/get-started-maven#add-azure-sdk-for-java-to-an-existing-project
 [bom_gradle]: https://learn.microsoft.com/azure/developer/java/sdk/get-started-gradle
+[changelog]: https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/appconfiguration/azure-data-appconfiguration/CHANGELOG.md
 [maven_build_tool]: https://learn.microsoft.com/azure/developer/java/sdk/get-started-maven#use-the-azure-sdk-for-java-build-tool
 [maven_package]: https://central.sonatype.com/artifact/com.azure/azure-data-appconfiguration/1.4.3
 [product_docs]: https://docs.microsoft.com/azure/azure-app-configuration
